@@ -7,8 +7,7 @@ import ColorButtons from './ColorButtons.js'
 function App() {
   return (
     <div>
-      <Header name="Clara"/>
-      <Header name="Kim"/>
+      <Header name="Hello, visitor to this work in progress! Try clicking the buttons if you so desire."/>
       <ColorButtons />
     </div>
   );
