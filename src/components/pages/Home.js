@@ -2,7 +2,6 @@ import React from 'react';
 import '../../App.css';
 import '../HeroSection.css';
 import HeroSection from '../HeroSection';
-import Cards from '../Cards';
 import {Button} from '../Button';
 
 function Home (props) {

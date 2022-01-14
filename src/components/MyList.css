@@ -1,0 +1,62 @@
+.ta-cards {
+    padding: 0px;
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+
+    width: 100%;
+    margin: 0;
+}
+  
+.ta-cards__wrapper {
+    position: relative;
+    margin: 0;
+}
+  
+.ta-cards__item {
+  margin-bottom: 24px;
+  list-style: none;
+  border: 0.5px solid #e9e9e9;
+  /*border-radius: 5px;*/
+}
+
+.ta-cards__item__header {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lucida Console', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: var(--primary);
+  padding-left:0.5rem;
+  padding-top: 0.5rem;
+  margin-bottom: 0.3rem;
+  text-align: left;
+}
+
+.ta-cards__item__header > h1{
+  font-size: 18px;
+  display: inline;
+}
+  
+.ta-cards__item__details {
+  color: black;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: left;
+}
+
+
+.ta-cards__item__details > table {
+  font-size: 18px;
+  text-align: left;
+}
+.ta-cards__item__details > table > tr > td, td>i {
+  padding-right: 1em;
+  font-family: 'Calibri Light';
+  vertical-align: top;
+}
+.ta-cards__item__details > table > tr > td > a{
+  font-family: 'Calibri Light';
+}

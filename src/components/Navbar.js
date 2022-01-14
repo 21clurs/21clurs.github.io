@@ -58,6 +58,13 @@ function Navbar(props) {
                                     </Link>
                                 </li>
                             }
+                            {!props.artistactivated && 
+                                <li className='nav-item'>
+                                    <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
+                                        Projects
+                                    </Link>
+                                </li>
+                            }
                             {/* ART LINKS */}
                             {props.artistactivated && 
                                 <li className='nav-item'>

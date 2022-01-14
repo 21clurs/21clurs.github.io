@@ -13,7 +13,7 @@ function SideSection(props){
                     <img src="/images/self.jpg" alt="A picture of me!"/>
                 </div>
                 <h1>Clara J. Kim</h1>
-                <p>I'm a computer scientist and amateur artist currently based in Virginia. You can learn more about me <Link to='/about'>here</Link>.</p>
+                <p>I'm a computer scientist and amateur artist currently based in Virginia. You can learn more about me <Link to='/'>here</Link>.</p>
                 <div className="btns">
                     {props.artistactivated && <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'onClick={handleUnArtistClick}>
                         Switch to Computer Scientist

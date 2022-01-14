@@ -12,6 +12,9 @@ import SideSection from './components/SideSection';
 import Home from './components/pages/Home';
 import Resume from './components/pages/Resume';
 import Teaching from './components/pages/Teaching';
+import Projects from './components/pages/Projects';
+import Illustration from './components/pages/Illustration';
+import Design from './components/pages/Design';
 import SignUp from './components/pages/SignUp';
 import Footer from './components/Footer';
 
@@ -27,7 +30,9 @@ function App() {
             <Route path='/' element={<Home artistactivated={artistactivated} setArtistactivated={setArtistactivated} />}/>
             <Route path='/resume' element={<Resume />}/>
             <Route path='/teaching' element={<Teaching />}/>
-            <Route path='/sign-up' element={<SignUp />}/>
+            <Route path='/projects' element={<Projects />}/>
+            <Route path='/illustration' element={<Illustration />}/>
+            <Route path='/design' element={<Design />}/>
           </Routes>
         </div>
         <Footer/>
