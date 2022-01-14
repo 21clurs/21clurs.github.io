@@ -157,3 +157,32 @@
 .btns{
     width: 100%;
 }
+
+
+@media screen and (max-width: 768px) {
+    .picture-container > img{
+        width: 100px;
+        object-fit: cover;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .side-container-artist {
+        margin: 0px;
+        width: 100%;
+    }
+    .side-container-normal{
+        margin: 0px;
+        width: 100%;
+    }
+    .picture-container > img{
+        width: 160px;
+        object-fit: cover;
+        height: 160px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+}
